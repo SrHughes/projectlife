@@ -1,0 +1,84 @@
+body{
+	background-color: #11a6d4;
+}
+#login-box{
+	background-color: #1992b7;
+	width: 380px;
+	height: 430px;
+	margin: 140px auto 0px;
+	border-radius: 5px;
+}
+#login-box-interno{
+	width: 360px;
+	height: 410px;
+	background-color: #fdfdfd;
+	position: absolute;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+	overflow: hidden;
+}
+#login-box-label{
+	height: 45px;
+	text-align: center;
+	font: bold 14px/45px sans-serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #fafbfc; 
+	background: -moz-linear-gradient(top,  #fafbfc 0%, #ecf1f4 100%);
+	background: -webkit-linear-gradient(top,  #fafbfc 0%,#ecf1f4 100%);
+	background: linear-gradient(to bottom,  #fafbfc 0%,#ecf1f4 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafbfc', endColorstr='#ecf1f4',GradientType=0 );
+	border-bottom: 1px solid #bfc3c5;
+	box-shadow: 1px 0px 3px #dedede;
+	color: #55555;
+	text-shadow: 1px 0px 1px white;
+}
+#input-div{
+	margin: 0px;
+	padding: 5px;
+	background-color: #f2f5f7;
+	border-radius: 3px;
+}
+#input-div input{
+	width: 260px;
+	height: 25px;
+	padding-left: 5px;
+	font: normal 13px sans-serif;
+	color: #aeaeae;
+	border-radius: 3px;
+	border: 1px solid #bfc4c6;
+	outline: none;
+}
+#input-div:hover{
+	background-color: #e0f1fc;
+}
+#input-div:hover input{
+	border-color: #7dc6dd;
+}
+#botoes{
+	width: 100px;
+	margin-left: 130px;
+	margin-right: 140px;
+}
+#botao{
+	margin-right: 10px;
+	float: right;
+	padding: 5px 15px;
+	font: bold 12px sans-serif;
+	border-radius: 5px;
+	text-shadow: 0px 1px 0px white;
+	border: 1px solid #9eb9c3;
+	background: #edf6f9;
+	background: -moz-linear-gradient(top,  #edf6f9 0%, #cde5ee 100%);
+	background: -webkit-linear-gradient(top,  #edf6f9 0%,#cde5ee 100%);
+	background: linear-gradient(to bottom,  #edf6f9 0%,#cde5ee 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf6f9', endColorstr='#cde5ee',GradientType=0 ); 
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	}
+a:hover {text-decoration: none;  
+	color:#000; 
+	font-size:125%; 
+	}
